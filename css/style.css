@@ -1,0 +1,142 @@
+body{
+     
+        margin: 0;
+        padding: 0;
+        font: size 16px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        color: #626262;
+    
+    
+}
+/* header start */
+.menu ul a{
+    
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .3s all ease-in;
+    margin: 0 35px;
+    
+}
+.menu ul a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+/* header end */
+
+/* photodiary start */
+.photodiary{
+    margin-top: 90px;
+}
+.weekend{
+    margin-bottom: 80px;
+}
+.weekend h4{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+   color: gray;
+}
+.weekend h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.leave{
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+/* photodiary end */
+
+/* card-1 start */
+.card-1{
+    margin-bottom: 100px;
+}
+
+.s-item h5{
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: gray;
+}
+.s-item h4{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    color: gray;
+}
+
+/* card-1 end */
+
+/* sign-up start */
+.newslatter{
+    background-color: #F0F0F0;
+    margin-bottom: 80px;
+  
+}
+.newslatter .news-input{
+    background: var(--bg-light);
+    border: navajowhite;
+    border-bottom: 1px solid #626262;
+    border-radius: 0;
+    padding-right:40px;
+    padding-bottom:10px;
+    outline:0px !important;
+    box-shadow: none !important;
+}
+
+.newslatter span[type=button]{
+    background: var(--bg-light);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+.newslatter h1{
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* sign-up end */
+
+/* card-2 start */
+.card-2{
+    margin-bottom: 80px;
+}
+.load-more{
+    margin-bottom: 80px;
+}
+.load-more button{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    transition: .3s all ease-in;
+}
+.load-more button:hover{
+    background-color: #333333;
+}
+/* card-2 end */
+
+/* footer start */
+footer{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+footer .f-link{
+    text-decoration: none;
+    color: gray;
+    padding-right: 10px;
+}
+
+/* footer end */

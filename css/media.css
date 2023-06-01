@@ -1,0 +1,147 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header start */
+    header{
+        margin: 0;
+        padding: 0;
+    
+       }
+       .logo{
+        margin: 0 !important;
+        padding: 0 !important;
+    
+       }
+        .logo img{
+            width: 130px;
+        }
+        
+        .menu ul li a {
+            margin-left: -1px !important;
+            line-height: 37px;
+            border: none !important;
+            text-align:left !important;
+        }
+    /* header end */
+
+        /* weekend start */
+        .weekend h3{
+            font-size: 22px;
+        }
+        .weekend{
+            margin-bottom: 40px;
+        }
+        .photodiary{
+            margin-top: 40px;
+        }
+        /* weekend end */
+        /* footer start */
+        .Privacy{
+            padding-left: 50px
+        }
+        .text-end{
+         padding-right: 75px;
+        }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header{
+        margin: 0;
+        padding: 0;
+    
+       }
+       .logo{
+        margin: 0 !important;
+        padding: 0 !important;
+    
+       }
+        .logo img{
+            width: 130px;
+        }
+        
+        .menu ul li a {
+            margin-left: -1px !important;
+            line-height: 37px;
+            border: none !important;
+            text-align:left !important;
+        }
+        /* weekend start */
+        .weekend h3{
+            font-size: 22px;
+        }
+        .weekend{
+            margin-bottom: 50px;
+        }
+        .photodiary{
+            margin-top: 50px;
+        }
+        /* weekend end */
+        /* footer start */
+        .text-end{
+            margin-top: -25px;
+        }
+        /* footer end */
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    header{
+        margin: 0;
+        padding: 0;
+    
+       }
+       .logo{
+        margin: 0 !important;
+        padding: 0 !important;
+    
+       }
+        .logo img{
+            width: 130px;
+        }
+        
+        .menu ul li a {
+            margin-left: -2px !important;
+            line-height: 37px;
+            border: none !important;
+            text-align:left !important;
+        }
+        /* header end */
+
+        /* photodiay start */
+        .weekend{
+            margin-bottom: 60px;
+        }
+        .photodiary{
+            margin-top: 60px;
+        }
+        /* photodiay end */
+
+        /* card-1 start */
+    
+        /* card-1 end */
+        
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra large devices (large desktops, 1400px and up) */
+
+@media (max-width: 1400px) {}
+
+
+
+
+
+
+
+
+
+
+
+
